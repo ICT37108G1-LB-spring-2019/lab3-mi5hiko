@@ -17,8 +17,8 @@ export class StudentManagementComponent implements OnInit {
   erasePersonalNumber = ''
 
   datas = [{
-    name: 'ზურა',
-    surename: 'ცინცაძე',
+    name: 'მიხეილ',
+    surename: 'რეხვიაშვილი',
     personalNumber: '12345678911'
   }]
   @Output() dataFromStudentManagement = new EventEmitter();
